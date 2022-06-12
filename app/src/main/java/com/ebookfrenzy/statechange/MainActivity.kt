@@ -49,8 +49,8 @@ class MainActivity : AppCompatActivity() {
         Log.i(TAG, "onRestart")
     }
 
-    override fun onSaveInstanceState(outState: Bundle, outPersistentState: PersistableBundle) {
-        super.onSaveInstanceState(outState, outPersistentState)
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
         Log.i(TAG, "onSaveInstanceState")
     }
 
